@@ -1,10 +1,11 @@
-import React, { useState }from 'react'
-import { AddCategory } from './components/AddCategory'
+import React, { useState }from 'react';
+import { AddCategory } from './components/AddCategory';
+import { GifGrid } from './components/GifGrid';
 
 
 export const GifExpertApp = () => {
 
-    const [categories, setCategories] = useState(['Bitcoin', 'Cardano', 'Dogecoin'])
+    const [categories, setCategories] = useState([])
 
     // const handleAdd = () => {
     //     setCategories( cats => [...categories,'Chia'] );
@@ -20,9 +21,12 @@ export const GifExpertApp = () => {
 
         <ol>
             {
-                categories.map( category => {
-                return <li key = { category }> {category} </li>
-                })
+                categories.map( category => (
+                    <GifGrid
+                        key={ category }
+                        category={ category }
+                    />
+                ))
             }
         </ol>
 
