@@ -3,13 +3,21 @@
 }
 
 body {
-  padding: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: #0d7377;
+}
+
+body .title_page{
+  color: #2b2e4a;
+  text-shadow: #30e3ca.1em 0.1em 0.2em;
+  font-size: 30px;
 }
 
 input {
   font-size: 1.2rem;
   width: 100%;
-  color: gray;
+  color: #323232;
 }
 
 .card-grid {
@@ -20,19 +28,27 @@ input {
 
 .card {
   align-content: center;
-  border: 1px solid grey;
+  border: 1px solid #212121;
   border-radius: 5px;
   overflow: hidden;
   margin-bottom: 10px;
   margin-right: 10px;
+  background-color: #14ffec;
+  color: #323232;
+  text-align: center;
 }
 
 .card p{
-  padding: 5px;
   text-align: center;
+  justify-content: center;
+  padding: 5px;
 }
 
 .card img{
   max-height: 170px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 10px;
 }
 
