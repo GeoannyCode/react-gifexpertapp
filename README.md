@@ -1,3 +1,30 @@
+# GifExpertApp
+
+Aplicación que permite buscar gifs utilizando la API de GIPHY.
+
+## Ver 🚀
+
+https://dgbracero-gifexpertapp.netlify.app/
+
+## Construido con 🛠️
+
+* [GIPHY](https://developers.giphy.com/)
+* [React.js](https://es.reactjs.org/)
+
+## Autor ✒️
+
+* **Diego Bracero** - *Trabajo Inicial* - [dgbracero](https://github.com/dgbracero)
+
+## Expresiones de Gratitud 🎁
+
+* Comenta a otros sobre este proyecto 📢
+* Invitame una cerveza 🍺 o un café ☕ Paypal: diegobracero@yahoo.com. 
+
+##
+⌨️ con ❤️ por [dgbracero](https://github.com/dgbracero) 😊
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
